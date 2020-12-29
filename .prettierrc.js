@@ -8,7 +8,7 @@ module.exports = {
   // 在每条语句的末尾添加分号
   semi: true,
   // 使用单引号或双引
-  singleQuote: true,
+  singleQuote: false,
   // 仅在需要时在对象属性周围添加引号
   quoteProps: 'as-needed',
   // 在 JSX 中使用单引号或双引号
