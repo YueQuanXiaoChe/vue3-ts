@@ -3,7 +3,6 @@
 
 .git
 .vscode
-.github
 .cache
 node_modules
 dist
