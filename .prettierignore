@@ -1,0 +1,16 @@
+# @Author: wang xue
+# @Description:
+
+/dist/*
+/node_modules/**
+.git
+.vscode
+.github
+.chche
+.local
+.output.js
+
+**/*.svg
+**/*.sh
+
+/public/*

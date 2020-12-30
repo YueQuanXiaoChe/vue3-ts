@@ -1,5 +1,9 @@
+# @Author: wang xue
+# @Description: docker 客户端会把上下文中的所有文件发送给 docker daemon。此文件就是定义上下文中的那些文件或文件夹不用发送
+
 .git
 .vscode
 .github
+.cache
 node_modules
 dist
