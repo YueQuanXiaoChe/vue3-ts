@@ -25,5 +25,4 @@ pnpm-debug.log*
 # 项目中新增的一些内容
 package-lock.json
 .git
-.github
 .cache
