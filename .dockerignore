@@ -4,5 +4,6 @@
 .git
 .vscode
 .cache
+.github
 node_modules
 dist
