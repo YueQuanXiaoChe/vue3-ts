@@ -4,8 +4,19 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --report",
+    "build-local-serve": "vue-cli-service build --report && serve -s dist --debug",
+    "lint": "vue-cli-service lint",
+    "build-dev": "vue-cli-service build --mode dev --report",
+    "build-test": "vue-cli-service build --mode test",
+    "build-stress": "vue-cli-service build --mode stress",
+    "build-pre": "vue-cli-service build --mode pre",
+    "build-prod": "vue-cli-service build --mode prod",
+    "docker-build-dev": "docker build --build-arg ENV=dev . -t vue3-ts-dev",
+    "docker-build-test": "docker build --build-arg ENV=test . -t vue3-ts-test",
+    "docker-build-stress": "docker build --build-arg ENV=stress . -t vue3-ts-stress",
+    "docker-build-pre": "docker build --build-arg ENV=pre . -t vue3-ts-pre",
+    "docker-build-prod": "docker build --build-arg ENV=prod . -t vue3-ts-prod"
   },
   "dependencies": {
     "core-js": "^3.6.5",
