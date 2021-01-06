@@ -30,7 +30,7 @@ Dockerfile
 LICENSE
 
 # resource files
-**/*.svg
+*.svg
 
 # other files
 *.md
