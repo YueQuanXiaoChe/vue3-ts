@@ -1,15 +1,37 @@
 # @Author: wang xue
-# @Description:
+# @Description: .prettierignore 文件中指定需要忽略格式化的文件或文件夹
 
-/dist/*
-/node_modules/**
-.git
+.DS_Store
+node_modules
+/dist
+
+# Editor directories
+.idea
 .vscode
-.chche
-.local
-.output.js
 
+# Project directories
+.git
+.cache
+nginx
+public
+
+# local env files
+.env
+.env.*
+
+# config files
+.browserslistrc
+.dockerignore
+.editorconfig
+.eslintignore
+.gitignore
+.prettierignore
+Dockerfile
+LICENSE
+
+# resource files
+**/*.ttf
 **/*.svg
-**/*.sh
 
-/public/*
+# other files
+*.md

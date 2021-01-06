@@ -1,18 +1,26 @@
 # @Author: wang xue
 # @Description: .dockerignore 文件中指定在传递给 docker引擎 时需要忽略掉的文件或文件夹
 
-# 要忽略的文件夹
-/.git
-/.vscode
-/.cache
-/node_modules
+.DS_Store
+node_modules
+/dist
 
-# 要忽略的文件
-*.md
-LICENSE
+# Editor directories
+.idea
+.vscode
+
+# Project directories
+.git
+.cache
+
+# config files
 .editorconfig
 .eslintignore
 .eslintrc.js
 .gitignore
 .prettierignore
 .prettierrc.js
+LICENSE
+
+# other files
+*.md

@@ -1,35 +1,36 @@
 # @Author: wang xue
 # @Description: .eslintignore 文件中指定需要忽略语法检查的文件或文件夹
 
-# 要忽略的文件夹
-/.git
-/.vscode
-/.cache
-/node_modules
+.DS_Store
+node_modules
 /dist
-/nginx
-/public
 
-# 要忽略的文件
-*.md
-*.ttf
+# Editor directories
+.idea
+.vscode
+
+# Project directories
+.git
+.cache
+nginx
+public
+
+# local env files
+.env
+.env.*
+
+# config files
 .browserslistrc
 .dockerignore
 .editorconfig
-.env
-.env.dev
-.env.pre
-.env.prod
-.env.stress
-.evn.test
 .eslintignore
-.eslintrc.js
 .gitignore
 .prettierignore
-.prettierrc.js
-babel.config.js
 Dockerfile
 LICENSE
-package.json
-tsconfig.json
-vue.config.js
+
+# resource files
+**/*.svg
+
+# other files
+*.md
