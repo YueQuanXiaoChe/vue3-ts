@@ -2,10 +2,10 @@
 # @Description: .dockerignore 文件中指定在传递给 docker引擎 时需要忽略掉的文件或文件夹
 
 # 要忽略的文件夹
-.git
-.vscode
-.cache
-node_modules
+/.git
+/.vscode
+/.cache
+/node_modules
 
 # 要忽略的文件
 *.md
